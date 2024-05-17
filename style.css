@@ -1,0 +1,80 @@
+.footer-columns{
+	display: flex;
+}
+.footer-column{
+	flex: 50%;
+	margin: 20px;
+}
+footer, header{
+	background-color: #c4eae4;
+	padding: 10px;
+}
+main{
+	padding: 10px;
+	background-color: silver;
+	
+}
+.post{
+	display:flex;
+	background-color: white;
+	
+	padding: 20px;
+	border-radius: 20px;
+	
+	margin-bottom: 20px;
+
+}
+.post img{
+	margin: 20px;
+	border-radius: 30px;
+	
+	-webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.post img:hover{
+	  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.row{
+	display:flex;
+	gap: 20px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display:flex;
+	background-color: gray;
+	overflow: hidden;
+}
+header li a, .dropbtn{
+	display: inline-blok;
+	color: white;
+	text-align: center;
+	padding: 14x 16x;
+	text-decoration: none;
+}
+header li a:hover, .dropdown:hover .dropbtn{
+	background-color: tomato;
+}
+header li.dropdown-content{
+	display:none;
+	position: absolute;
+	background-color: blue;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content a{
+	color:white;
+	padding:12px 16px;
+	display:block;
+	text-align:left;
+}
+.dropdown-content a hover{
+	color:yellow;
+}
